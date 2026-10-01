@@ -30,7 +30,6 @@ export const PhoneForm = () => {
           <Input
             placeholder="Номер телефона"
             ref={phoneRef}
-            defaultValue="79177522604"
             name="phoneNumber"
             autoFocus
           />

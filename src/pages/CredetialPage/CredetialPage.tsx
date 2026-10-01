@@ -35,7 +35,6 @@ const CredentialPage = () => {
         <Flex direction="column" gap={12}>
           <Input
             ref={idInstanceRef}
-            defaultValue="410022749485"
             mode="contrast"
             placeholder="idInstance"
             onChange={handleChange}
@@ -44,7 +43,6 @@ const CredentialPage = () => {
           />
           <Input
             ref={apiTokenInstanceRef}
-            defaultValue="1752b68fe5af49b2a6dbce4ce78bc573ea89ad7ec0b94089bd"
             mode="contrast"
             placeholder="apiTokenInstance"
             onChange={handleChange}

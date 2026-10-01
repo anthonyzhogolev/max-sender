@@ -1,18 +1,3 @@
-.message {
-  border-radius: 14px;
-  margin: 0 20px;
-  max-width: 40%;
-  justify-content: flex-start;
-  &.out {
-    background-color: #e9fdff;
-    align-self: flex-end;
-  }
-  &.in {
-    background-color: #fff;
-    align-self: start;
-  }
-}
-
 .dialogWrapper {
   flex: 1;
   display: flex;
@@ -20,5 +5,3 @@
   overflow: hidden;
   justify-content: flex-end;
 }
-
-

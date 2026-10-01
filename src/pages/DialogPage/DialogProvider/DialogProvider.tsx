@@ -7,18 +7,7 @@ export const DialogProvider: React.FC<{ children: React.ReactNode }> = ({
 }) => {
   const [phoneNumber, setPhoneNumber] = useState<string>("");
 
-  const [messages, setMessages] = useState<DisplayedMessage[]>([
-    { text: "444", date: "17:14", direction: "out", id: "179085689872…" },
-    { text: "123", date: "17:14", direction: "out", id: "179085689872…" },
-    { text: "123", date: "17:14", direction: "out", id: "179085689872…" },
-    { text: "123", date: "17:14", direction: "out", id: "179085689872…" },
-    { text: "123", date: "17:14", direction: "out", id: "179085689872…" },
-    { text: "123", date: "17:14", direction: "out", id: "179085689872…" },
-    { text: "123", date: "17:14", direction: "out", id: "179085689872…" },
-    { text: "123", date: "17:14", direction: "out", id: "179085689872…" },
-
-    { text: "111", date: "17:14", direction: "out", id: "179085689872…" },
-  ]);
+  const [messages, setMessages] = useState<DisplayedMessage[]>([]);
 
   const pushMessage = (newMessage: DisplayedMessage) => {
     setMessages((oldMessages) => [...oldMessages, newMessage]);
