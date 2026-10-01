@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
      tsconfigPaths: true,
-  }
+  },
+  base: "/max-sender/",
 })
