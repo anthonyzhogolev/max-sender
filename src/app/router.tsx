@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { lazy } from "react";
-import { createBrowserRouter, Navigate, Outlet } from "react-router-dom";
+import { createHashRouter, Navigate, Outlet } from "react-router-dom";
 import { Layout } from "./Layout";
 import { useCredetials } from "@hooks/useCredentials";
 
@@ -13,7 +13,7 @@ function ProtectedRoute() {
   return isAuthenticated ? <Outlet /> : <Navigate to="/login" replace />;
 }
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     element: <Layout />,
     path: "/",
