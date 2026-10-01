@@ -1,0 +1,11 @@
+.messagesList {
+  display: flex;
+
+  gap: 12px;
+  flex: 1 1 100%; /* или просто flex: 1 */
+  min-width: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 0;
+  overflow-y: auto;
+}

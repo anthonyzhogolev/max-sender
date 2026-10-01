@@ -1,0 +1,9 @@
+.messageInputWrapper {
+  padding: 12px 20px;
+
+  /* border-top: 1px solid #e5e5e5; */
+}
+
+.messageInput {
+  flex: 1;
+}
