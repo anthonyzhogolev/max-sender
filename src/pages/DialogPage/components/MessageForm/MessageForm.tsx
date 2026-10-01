@@ -28,6 +28,7 @@ export const MessageForm = ({ onSend }: MessageFormProps) => {
           defaultValue=""
           placeholder="Сообщение"
           onChange={handleChange}
+          value={message}
           className={styles.messageInput}
           rows={1}
           autoFocus

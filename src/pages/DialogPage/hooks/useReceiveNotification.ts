@@ -31,7 +31,7 @@ export const useReceiveNotification = () => {
 
             pushMessage(message);
           }
-          const { result } = await api.deleteNotification(
+          await api.deleteNotification(
             credentials?.idInstance,
             credentials?.apiTokenInstance,
             receiptId,

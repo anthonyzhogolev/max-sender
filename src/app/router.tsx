@@ -5,7 +5,7 @@ import { Layout } from "./Layout";
 import { useCredetials } from "@hooks/useCredentials";
 
 const CredetialPage = lazy(async () => import("@pages/CredetialPage"));
-const DialogPage = lazy(async () => import("@pages/DialogPage/DialogPage"));
+const DialogPage = lazy(async () => import("@pages/DialogPage"));
 const NotFoundPage = lazy(async () => import("@pages/NotFoundPage"));
 
 function ProtectedRoute() {
